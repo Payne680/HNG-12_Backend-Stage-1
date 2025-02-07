@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-"scripts": {
-  "dev": "nodemon src/index.ts",
-  "build": "tsc",
-  "start": "node dist/index.js"
-},
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Payne680/HNG-12_Backend-Stage-1.git"
@@ -26,5 +26,8 @@
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
